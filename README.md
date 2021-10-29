@@ -23,7 +23,7 @@
 ## Install In One Command!
 
 Make sure you have the newest version of Neovim (0.5).
-
+<img src="http://dp2003.com:8088/doc/Public/Uploads/2018-08-02/5b63198865841.png">
 ``` bash
 bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)
 ```
