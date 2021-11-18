@@ -32,7 +32,7 @@ jobs:
         run: |
           java -version
           node --version
-          go -version
+          go version
           python -version
           ruby -version
 
