@@ -31,7 +31,7 @@ jobs:
       - name: Show Version
         run: |
           java -version
-          node -version
+          node --version
           go -version
           python -version
           ruby -version
