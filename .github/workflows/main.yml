@@ -35,3 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           env
+          java -version
+          node -version
+          go -version
+          python -version
+          ruby -version
