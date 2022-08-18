@@ -1,49 +1,35 @@
-# Contributing to LunarVim
+# Contributing to Go
 
-Welcome to the LunarVim contributing guide. We are excited about the prospect of you joining our [community](https://github.com/ChristianChiarulli/LunarVim/graphs/contributors)!
+Go is an open source project.
 
-There are many opportunities to contributing to the project at any level. Every contribution is highly valued and no contribution is too small.
+It is the work of hundreds of contributors. We appreciate your help!
 
-You do not need to write code to contribute to this project. Documentation, demos, and feature design advancements are a key part of this project's growth.
+## Before filing an issue
 
-One of the best ways to begin contributing in a meaningful way is by helping find bugs and filing issues for them.
+If you are unsure whether you have found a bug, please consider asking in the [golang-nuts mailing
+list](https://groups.google.com/forum/#!forum/golang-nuts) or [other forums](https://golang.org/help/) first. If
+the behavior you are seeing is confirmed as a bug or issue, it can easily be re-raised in the issue tracker.
 
-## Getting Started
+## Filing issues
 
-1. Backup your ~/.config/nvim
-2. Follow the [Installation](https://github.com/ChristianChiarulli/LunarVim/wiki/Installation) guide
-3. Link your fork with the repository `git remote add upstream https://github.com/ChristianChiarulli/LunarVim.git`
-4. That's it ! You can now `git fetch upstream` and `git rebase [-i] upstream/rolling` to update your branches with the latest contributions.
+Sensitive security-related issues should be reported to [security@golang.org](mailto:security@golang.org).
+See the [security policy](https://golang.org/security) for details.
 
-## Setting up development tools
+The recommended way to file an issue is by running `go bug`.
+Otherwise, when filing an issue, make sure to answer these five questions:
 
-1. Install [stylua](https://github.com/johnnymorganz/stylua#installation)
+1. What version of Go are you using (`go version`)?
+2. What operating system and processor architecture are you using?
+3. What did you do?
+4. What did you expect to see?
+5. What did you see instead?
 
-2. Copy `utils/.stylua.toml` into the LunarVim root directory
+For change proposals, see [Proposing Changes To Go](https://github.com/golang/proposal/).
 
-## Some Guidelines
+## Contributing code
 
-### Git Commit Messages
+Please read the [Contribution Guidelines](https://golang.org/doc/contribute.html) before sending patches.
 
-* Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-* Limit the first line to 72 characters or less
-* Reference issues and pull requests liberally after the first line
+Unless otherwise noted, the Go source files are distributed under
+the BSD-style license found in the LICENSE file.
 
-### Git Branch Naming
-
-* Name your branches meaningfully,
-ex: (feature|bugfix|hotfix)/what-my-pr-does
-
-### Code 
-
-All lua code is formatted with [Stylua](https://github.com/JohnnyMorganz/StyLua).
-* Use snake_case
-* Avoid platform-dependent code
-
-## Communication
-
-Members of the community have multiple ways to collaborate on the project.
-We encourage you to join the community:
-- [Discord server](https://discord.gg/Xb9B4Ny)
-- [Matrix server](https://matrix.to/#/+atmachine:matrix)
