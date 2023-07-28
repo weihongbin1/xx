@@ -27,6 +27,6 @@ jobs:
         run: echo "{name}={value}" >> $GITHUB_STATE
 
       - name: Set output
-        run: echo "$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       - name: echo out
         run: echo $GITHUB_OUTPUT
